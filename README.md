@@ -1,6 +1,8 @@
 <img src="imagens/mascote.png" align="right" width="300">
 
-# Curso de JavaScript
+# Repositório para conclusão dos desafios de javaScript do curso em vídeo do professor Gustavo Guanabara.
+
+## Curso de JavaScript
 
 Material público para o ensino básico de JavaScript para alunos iniciantes. Acesse o material em PDF, analise o código disponibilizado para cada exercício e veja-os funcionando em execução direta via repositório GitHub.
 
