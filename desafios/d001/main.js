@@ -16,5 +16,5 @@ btn3.addEventListener('click', function() {
 
 function mostrarMensagem(botao, mensagem) {
     alert(mensagem);
-    botao.classList.add('ativo')
+    botao.classList.toggle('ativo')
 }
