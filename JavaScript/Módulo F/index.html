@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto JavaScript 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section class="container">
+            <div class="campo">
+                <label for="num">Número (entre 1 e 100): </label>
+                <input type="number" id="num" placeholder="Escolha um número" min="0">
+                <button type="button" id="add">Adicionar</button>
+            </div>
+            <div class="campo">
+                <select name="resultado" id="lista" size="10" hidden></select>
+            </div>
+            <button type="button" id="done">Finalizar</button>
+            <div id="res"></div>
+    </section>
+    <footer>Feito por &copy; Felipe Ferreira Carvalho</footer>
+    <script src="main.js"></script>
+</body>
+</html>
