@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto JavaScript 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Contagem</h1>
+    </header>
+    <section class="container">
+        <form id="form">
+                <div class="campo">
+                    <label for="inicio">Início: </label>
+                    <input type="number" id="inicio" placeholder="Digite um número inicial" min="0">
+                </div>
+                <div class="campo">
+                    <label for="fim">Fim: </label>
+                    <input type="number" id="fim" placeholder="Digite um número final" min="0">
+                </div>
+                <div class="campo">
+                    <label for="passo">Passo: </label>
+                    <input type="number" id="passo" placeholder="Escolha a alternância" min="1">
+                </div>
+                <button type="submit">Contar</button>
+                <div id="res">
+                    Preparando contagem...
+                </div>
+        </form>
+    </section>
+    <footer>Feito por &copy; Felipe Ferreira Carvalho</footer>
+    <script src="main.js"></script>
+</body>
+</html>
