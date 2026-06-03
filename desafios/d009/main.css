@@ -1,0 +1,26 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 20px 10px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 24px 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 24px;
+}
+
+#resultado p {
+    font-size: 22px;
+    margin: 12px 0;
+}
