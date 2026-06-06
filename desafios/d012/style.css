@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 32px;
+  max-width: 680px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+#btnVerificar {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1.5px solid #aaa;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 32px;
+  transition: background-color 0.2s;
+}
+
+#btnVerificar:hover {
+  background-color: #f0f0f0;
+}
+
+#resultado {
+  display: none;
+}
+
+#resultado.visivel {
+  display: block;
+}
+
+#resultado h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#resultado p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #222;
+}
+
+#msgInicial {
+  display: block;
+  color: #444;
+  font-size: 1rem;
+}
